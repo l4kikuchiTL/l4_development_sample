@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CTC 2022 HTML 講座</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<!-- 見出し -->
+見出し
+<h1 class="blueback">
+    一番大きな見出しはh1</h1>
+    
+<h2>2番目に大きな見出しはh2</h2>
+<h3>3番目に大きな見出しはh3</h3>
+
+<p id="red">段落タグはp</p>
+
+<br><br>
+
+<!-- 画像 -->
+画像
+<br>
+<img src="images/sample1.png" alt="サンプル画像">
+
+<br><br>
+
+<!-- リンク -->
+リンク
+<br>
+<a href="https://www.ctc-g.co.jp/">CTCホームページ</a>
+
+<br><br>
+
+<!-- 番号なしリスト -->
+番号なしリスト
+<ul>
+	<li>リスト1</li>
+	<li>リスト2</li>
+	<li>リスト3</li>
+</ul>
+
+<br><br>
+
+<!-- 番号付きリスト -->
+番号付きリスト
+<ol>
+	<li>リスト1</li>
+	<li>リスト2</li>
+	<li>リスト3</li>
+</ol>
+
+<br><br>
+
+<!-- テーブル -->
+テーブル
+<table border="1">
+
+<tr>
+    <th id="red">
+        テーブルヘッダー1
+    </th>
+    <th>
+        テーブルヘッダー２
+    </th>
+    <th>
+        テーブルヘッダー3
+    </th>    
+</tr>
+<tr>
+    <td>
+        テーブルデータ1
+    </td>
+    <td class="blueback">
+        テーブルデータ2
+    </td>
+    <td>
+        テーブルデータ3
+    </td>    
+</tr>
+<tr>
+    <td>
+    <ul>
+        <li>リスト1</li>
+        <li>リスト2</li>
+        <li>リスト3</li>
+    </ul>
+    <ol>
+        <li>リスト1</li>
+        <li>リスト2</li>
+        <li>リスト3</li>
+    </ol>
+    </td>
+    <td>
+        <a href="https://www.ctc-g.co.jp/"><img src="images/sample1.png" alt="サンプル画像"></a>
+    </td>
+    <td id="red">
+        詳細は<a href="https://www.ctc-g.co.jp/">CTCホームページ</a>をクリック！
+    </td>
+</tr>
+
+</table>
+
+<br>
+<br>
+
+<!-- フォーム -->
+フォーム
+<form action="">
+
+    名前：
+    <input type="text">
+
+    <br>
+    <br>
+
+    性別：
+    <input type="radio" name="gender" value="男" checked>男
+    <input type="radio" name="gender" value="女">女
+    <input type="radio" name="gender" value="その他">その他
+
+    <br>
+    <br>
+
+    好きな色：
+    <input type="checkbox" name="color" value="赤">赤
+    <input type="checkbox" name="color" value="青">青
+    <input type="checkbox" name="color" value="黄">黄
+    <input type="checkbox" name="color" value="緑">緑
+
+    <br>
+    <br>
+
+    入社年：
+    <select name="year">
+        <option value="2020">2020</option>
+        <option value="2021">2021</option>
+        <option value="2022">2022</option>
+        <option value="2023">2023</option>
+        <option value="不明">不明</option>
+    </select>
+
+    <br>
+    <br>
+
+    メッセージ：
+    <textarea name="message" id="" cols="30" rows="10"></textarea>
+
+    <br>
+    <br>
+
+    <input type="submit" value="送信する">
+
+</form>
+
+
+
+</body>
+
+</html>

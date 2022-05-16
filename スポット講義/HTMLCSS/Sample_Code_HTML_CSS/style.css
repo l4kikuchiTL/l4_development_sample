@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+body    {
+    background-color: aliceblue;
+}
+h1      {
+    color: brown;
+}
+p       {
+    font-size: xx-large ;
+}
+
+.blueback   {
+    background-color: blue;
+}
+
+#red    {
+    color: red;
+}
+
+.pulldown       {
+    width: 50px;
+}
+

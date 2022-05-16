@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CTC 2022 JavaScript 講座</title>
+
+
+</head>
+
+<body>
+
+<!--  -->
+
+<table border="1">
+
+    <tr>
+        <th>
+            商品名
+        </th>
+        <th>
+            単価（円）
+        </th>
+        <th>
+            　数量　
+        </th>    
+        <th>
+            価格（円）
+        </th>  
+    </tr>
+    <tr>
+        <td>
+            ブランドバッグ<br>
+            <img src="images/business_bag.png" alt="ビジネスバッグ">
+        </td>
+        <td>
+            <p id="unit_price">10,000</p>
+        </td>
+        <td style="text-align:center">
+                <form id="form">
+                    <select class="pulldown" name="number">
+                        <option value="1" selected>1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                  </form>
+        </td>    
+        <td>
+            <p id = "output_total">0</p>
+        </td>
+    </tr>
+
+    <tr>
+        <th>
+        </th>
+        <th>
+        </th>
+        <th>
+            合計（税込）
+        </th>    
+        <th>
+            <p id = "grand_total">0</p>
+        </th>  
+    </tr>
+
+    </table>
+
+<script src="script_sample2.js"></script>
+
+
+</body>
+
+</html>
